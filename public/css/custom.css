@@ -1,3 +1,21 @@
 .row.features {
     background-color: red;
 }
+
+.row.header {
+  font: 900 32px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+
+	  font-size: 34px;
+}
+
+h3 {
+	  font-size: 20px;
+}
+
+img { 
+   border:1px solid #021a40;
+
+}
