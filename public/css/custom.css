@@ -1,5 +1,4 @@
 .row.features {
-    background-color: red;
 }
 
 .row.header {
@@ -8,14 +7,26 @@
 
 h1 {
 
-	  font-size: 34px;
+	  font-size: 40px;
 }
 
 h3 {
 	  font-size: 20px;
+
 }
+
 
 img { 
    border:1px solid #021a40;
+
+}
+
+.container {
+
+	padding: 15px
+}
+
+.row.features {
+	background-color: yellow;
 
 }
