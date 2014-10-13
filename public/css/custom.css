@@ -39,3 +39,8 @@ img {
 	background-color: #edeff1;
 	border-radius: 6px;
 }
+
+.form-group.has-success {
+	visibility: hidden;
+
+}
