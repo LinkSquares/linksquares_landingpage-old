@@ -21,6 +21,27 @@
 
     <!-- Load Global and Custom JavaScript HERE -->
     <%= javascripts %>
-    
+    <script src="\js\jquery-1.11.1.min.js"></script>
+
+<script>
+      $( document ).ready(function() {
+
+        $( '.btn.btn-primary.btn-lg.btn-block' ).click(function() {
+          
+      
+        $.ajax({   
+        type: "POST",   
+        url: "https://docs.google.com/a/linksquares.com/forms/d/1rmFYVcXdbuiyS4OCFMCyZaCCM4nYHjOa7d08NL1JTLI/formResponse",   
+        data: {'entry.1903476745': "VISHAL33"} 
+        });
+        });
+      });
+
+</script>
+
+
+
+
+
   </body>
 </html>
