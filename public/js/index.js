@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $( '.btn.btn-primary.btn-lg.btn-block' ).click(function() {
+  $( '#target' ).submit(function() {
     $.ajax({
       type: "POST",
       url: "https://docs.google.com/a/linksquares.com/forms/d/1BUM2Wa4vJItqCJpBzAb35uuqV5iVdNOGqYAWP7HgnuY/formResponse",
