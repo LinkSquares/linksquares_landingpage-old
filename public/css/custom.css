@@ -46,11 +46,6 @@ img {
 	border-radius: 6px;
 }
 
-.form-group.has-success {
-	visibility: hidden;
-
-}
-
 .form-control  {
 	margin-top: 10px;
 	margin-bottom: 10px;
