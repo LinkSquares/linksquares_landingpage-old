@@ -4,8 +4,13 @@ $(document).ready(function() {
   }
 
   function collectCheckboxData() {
-    $("#challenges-checkbox input:checked").each(function(index,value){ console.log($(this).text()); 
+    var checkboxData = [];
+    
+    $("label.checkbox input:checked").each(function(index,value) {
+      checkboxData.push($(this).parent().text().trim());
+    });
 
+    return checkboxData.join();
   }
 
   function postToGoogle() {
