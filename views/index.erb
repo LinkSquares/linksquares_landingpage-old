@@ -85,17 +85,52 @@
             <input type="text" required class="form-control lastname-field" placeholder="Last Name" id="last-name">
             <input type="text" required class="form-control company-field" placeholder="Company Name" id="company" >
              <input type="text" required class="form-control email-field" placeholder="Email Address" id="email">
-             <input type="text" required class="form-control phone-field" placeholder="Phone Number" id="phone" >
              
-             <label> What is your biggest team collaboration challenge?</label>
-              <select  id="select-challenge" required class="form-control">
-                <option selected="selected" disabled="disabled" value="">Please Select</option>
-                <option value="saab">SAAB</option>
-                <option value="opel">OPEL</option>
-                <option value="audi">AUDI</option>
-              </select>
+          <h6>Do you experience challenges within your company regarding:</h6>
+          <div name = "challenges-checkbox" id= "challenges-checkbox">
+              <label class="checkbox" for="checkbox1">
+                <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="custom-checkbox">
+                <span class="icons">
+                  <span class="icon-unchecked"></span>
+                  <span class="icon-checked"></span>
+                </span>
+                Onboarding new employees
+              </label>
+               <label class="checkbox" for="checkbox2">
+                <input type="checkbox" value="" id="checkbox2" data-toggle="checkbox" class="custom-checkbox">
+                <span class="icons">
+                  <span class="icon-unchecked"></span>
+                  <span class="icon-checked"></span>
+                </span>
+                Team communication
+              </label>
+               <label class="checkbox" for="checkbox3">
+                <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" class="custom-checkbox">
+                <span class="icons">
+                  <span class="icon-unchecked"></span>
+                  <span class="icon-checked"></span>
+                </span>
+                Excessive use of email to share content
+              </label>
+               <label class="checkbox" for="checkbox4">
+                <input type="checkbox" value="" id="checkbox4" data-toggle="checkbox" class="custom-checkbox">
+                <span class="icons">
+                  <span class="icon-unchecked"></span>
+                  <span class="icon-checked"></span>
+                </span>
+               Distributing knowledge
+              </label>
 
+               <label class="checkbox" for="checkbox5">
+                <input type="checkbox" value="" id="checkbox5" data-toggle="checkbox" class="custom-checkbox">
+                <span class="icons">
+                  <span class="icon-unchecked"></span>
+                  <span class="icon-checked"></span>
+                </span>
+               Keeping employees updated on relevant information
+              </label>
 
+            </div>
           <input type="submit"  class="btn btn-primary btn-lg btn-block"  value= "Submit">
           </form>
 
