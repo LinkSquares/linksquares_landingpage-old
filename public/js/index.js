@@ -58,8 +58,10 @@ $(document).ready(function() {
     event.preventDefault();
 
     if (verifyChallengesCheckbox() && verifyInterestCheckbox())  {
+      console.log("PASS")
       postToGoogle();
     } else {
+      console.log("FAIL")
       $('.form-group.has-success').hide();
       $('.form-group.has-error').show();
     }
