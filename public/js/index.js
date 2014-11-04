@@ -1,16 +1,35 @@
 $(document).ready(function() {
-  function verifyCheckboxes() {
+  
+  //Verifies that Challenges question checkbox has atleast 1 checkbox checked
+  function verifyChallengesCheckbox() {
     return $("#challenges-checkbox input:checked").length > 0;
   }
 
-  function collectCheckboxData() {
-    var checkboxData = [];
+  //Collects the checked Challenges question checkboxes
+  function collectChallengesCheckboxData() {
+    var checkboxChallengesData = [];
     
-    $("label.checkbox input:checked").each(function(index,value) {
-      checkboxData.push($(this).parent().text().trim());
+    $("#challenges-checkbox > label.checkbox input:checked").each(function(index,value) {
+      checkboxChallengesData.push($(this).parent().text().trim());
     });
 
-    return checkboxData.join();
+    return checkboxChallengesData.join();
+  }
+
+  //Verifies that Interest question checkbox has atleast 1 checkbox checked
+  function verifyInterestCheckbox() {
+    return $("#interested-checkbox input:checked").length > 0;
+  }
+  
+  //Collects the checked Interest question checkboxes
+  function collectInterestCheckboxData() {
+    var checkboxInterestData = [];
+    
+    $("#interested-checkbox > label.checkbox input:checked").each(function(index,value) {
+      checkboxInterestData.push($(this).parent().text().trim());
+    });
+
+    return checkboxInterestData.join();
   }
 
   function postToGoogle() {
@@ -19,7 +38,9 @@ $(document).ready(function() {
         'entry.1194990171': $('.form-control.lastname-field').val(),
         'entry.86532129'  : $('.form-control.company-field').val(),
         'entry.1434316936': $('.form-control.email-field').val(),
-        'entry.1418496140': collectCheckboxData()
+        'entry.1418496140': collectChallengesCheckboxData(),
+        'entry.1648773653': collectInterestCheckboxData(),
+        'entry.1722671787': $('.form-control.questions-textarea').val()
       }
 
       $.post("https://docs.google.com/a/linksquares.com/forms/d/12bhQUzEBk8L55nwZdPMxniYWI5wqPCD0nc5suHgPb8w/formResponse", data);
@@ -32,10 +53,11 @@ $(document).ready(function() {
       return false;
   }
 
+  //When the form is submitted, validate the checkboxes are okay, then post to Google
   $('#target').submit(function(event) {
     event.preventDefault();
 
-    if (verifyCheckboxes()) {
+    if (verifyChallengesCheckbox() && verifyInterestCheckbox())  {
       postToGoogle();
     } else {
       $('.form-group.has-success').hide();
