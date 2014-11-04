@@ -1,5 +1,10 @@
 $(document).ready(function() {
-  
+
+  $('.form-control.questions-textarea').click(function(event) {
+    $('.form-control.questions-textarea').empty();
+  });
+
+
   //Verifies that Challenges question checkbox has atleast 1 checkbox checked
   function verifyChallengesCheckbox() {
     return $("#challenges-checkbox input:checked").length > 0;
