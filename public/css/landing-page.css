@@ -10,6 +10,7 @@ html {
     height: 100%;
 }
 
+/*Using Roboto font*/
 body,
 h1,
 h2,
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 700;
 }
 
@@ -26,25 +27,37 @@ h6 {
     font-weight: 400;
 }
 
+/*This controls the logo image padding and style*/
+.top-bar{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
     background: url(../img/hero_image.png) no-repeat center center;
     background-size: cover;
 }
 
+/* This controls the size of the image */
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    /*this used to say 30% instead of pixels, if this messes up go back to 30% */
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
-.intro-message > h1 {
+
+/* This is the main h1 text with positioning*/
+.intro-text > h1 {
+    padding-top: 50px;
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
+    font-size: 3em;
+    color: #34495E;
 }
 
 .intro-divider {
@@ -53,8 +66,13 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+/* This is the main h3 text*/
+.intro-text > h3 {
+     padding-top: 20px;
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
+    font-size: 2em;
+    color: #34495E;
 }
 
 @media(max-width:767px) {
@@ -112,7 +130,6 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
