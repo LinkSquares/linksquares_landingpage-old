@@ -51,6 +51,12 @@ h6 {
     padding-bottom: 300px;
 }
 
+.form-group{
+    padding-top: 20px;
+
+
+}
+
 
 /* This is the main h1 text with positioning*/
 .intro-text > h1 {
@@ -83,15 +89,24 @@ h6 {
         padding-bottom: 15%;
     }
 
+    .form-group{
+        width: 300px;
+    padding-top: 0px;
+    padding-left: 80px;
+    text-align: center; 
+
+
+}
+
     .intro-text > h1 {
-        padding-top: 30px;
-        font-size: 3em;
+        padding-top: 10px;
+        font-size:32px;
     }
 
     .intro-text > h3 {
         padding-top: 20px;
          padding-bottom: 20px;
-        font-size: 2em;
+        font-size: 24px;
     }
 
     ul.intro-social-buttons > li {
