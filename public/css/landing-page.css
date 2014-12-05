@@ -97,8 +97,11 @@ h6 {
 .email-input {
 
     height: 45px;
+    width:180px;
     text-align: center;
+    margin: 0 auto;
 }
+
 
 .btn.btn-block{
     background-color: #F39C12;
@@ -117,10 +120,12 @@ h6 {
     }
 
     .form-group{
-        width: 240px;
+        width: 230px;
         height: 130px;
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px
     
     }
 
