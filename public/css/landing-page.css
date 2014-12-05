@@ -61,8 +61,14 @@ h6 {
 
 }
 
+.form-group.has-success{
+    color: #ECF0F1;
+    margin: 0 auto;
+    padding-top: -100px;
+}
 
-.email-input:focus{
+
+.form-control.email-field:focus{
 
     outline: none !important;
     border:1px solid #F39C12;
@@ -70,8 +76,12 @@ h6 {
 
 }
 
-.preview-text{
+li{
     padding-top: 10px;
+}
+
+.preview-text{
+    margin-top: 20px;
     color: #ECF0F1;
     font-size: 16px;
     font-weight: 500;
@@ -106,12 +116,23 @@ h6 {
 
 .email-input {
 
-    height: 45px;
+    height: 80px;
     width:240px;
     text-align: center;
     padding-left: 0px;
    
 }
+
+.btn.btn-primary.btn-lg.btn-block{
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 6px;
+
+    }
+
+
 
 
 .btn.btn-block{
