@@ -48,15 +48,24 @@ h6 {
     position: relative;
     /*this used to say 30% instead of pixels, if this messes up go back to 30% */
     padding-top: 300px;
-    padding-bottom: 300px;
+    padding-bottom: 180px;
 }
 
 .form-group{
-    padding-top: 40px;
+    margin-top: 10px;
+        padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #34495E;
+    width: 35%;
+    margin: 0 auto;
 
 }
 
+.list-inline{
 
+
+
+}
 
 
 /* This is the main h1 text with positioning*/
@@ -78,6 +87,7 @@ h6 {
 /* This is the main h3 text*/
 .intro-text > h3 {
      padding-top: 20px;
+     padding-bottom: 20px;
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
     font-size: 2em;
@@ -101,21 +111,29 @@ h6 {
     
 
     .intro-message {
-        padding-bottom: 15%;
+        padding-top: 80%;
+        padding-bottom: 100px;
+
     }
 
     .form-group{
-        width: 300px;
-    padding-top: 0px;
-    padding-left: 80px;
-    text-align: center; 
+        width: 240px;
+        height: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+    }
+
+    .btn{
+        width: 100px;
+        margin: 0 auto;
 
     }
 
 
     .intro-text > h1 {
         padding-top: 10px;
-        font-size:34px;
+        font-size:32px;
     }
 
     .intro-text > h3 {
