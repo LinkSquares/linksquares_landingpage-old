@@ -39,7 +39,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     /*color: #f8f8f8;*/
-    background: url(../img/hero_image.png) no-repeat center center;
+    background: url(../img/hero_image.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -52,15 +52,16 @@ h6 {
 }
 
 .form-group{
-    padding-top: 20px;
-
+    padding-top: 40px;
 
 }
 
 
+
+
 /* This is the main h1 text with positioning*/
 .intro-text > h1 {
-    padding-top: 100px;
+    padding-top: 80px;
     display: block;@
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
@@ -97,6 +98,8 @@ h6 {
 
 
 @media(max-width:767px) {
+    
+
     .intro-message {
         padding-bottom: 15%;
     }
@@ -110,10 +113,9 @@ h6 {
     }
 
 
-
     .intro-text > h1 {
         padding-top: 10px;
-        font-size:32px;
+        font-size:34px;
     }
 
     .intro-text > h3 {
