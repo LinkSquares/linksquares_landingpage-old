@@ -153,13 +153,19 @@ li{
 
     .form-group{
         width: 230px;
-        height: 130px;
+        height: 110px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     
     }
+
+    .form-group.has-success{
+    color: #ECF0F1;
+    
+}
+
 
     .btn.btn-primary.btn-lg.btn-block{
         width: 100px;
