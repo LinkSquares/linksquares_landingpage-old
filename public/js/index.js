@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   function postToGoogle() {
     var data = {
-        'entry.921313200': $('.email-input').val()
+        'entry.921313200': $('.form-control.email-field').val(),
       }
 
       $.post("https://docs.google.com/a/linksquares.com/forms/d/19J9SD8mB8nqXDPIf6Ds1ECuuT09fFF5Tn7XdEd_UbEM/formResponse", data);
@@ -18,7 +18,6 @@ $(document).ready(function() {
   //When the form is submitted, validate the checkboxes are okay, then post to Google
   $('#submit-button').click(function(event) {
     event.preventDefault();
-    console.log("PASS")
       postToGoogle();
 
   });
