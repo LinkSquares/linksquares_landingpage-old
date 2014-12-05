@@ -56,10 +56,11 @@ h6 {
         padding-top: 20px;
     padding-bottom: 10px;
     background-color: #34495E;
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
 
 }
+
 
 .email-input:focus{
 
@@ -67,6 +68,13 @@ h6 {
     border:1px solid #F39C12;
     box-shadow: 0 0 10px #F39C12;
 
+}
+
+.preview-text{
+    padding-top: 10px;
+    color: #ECF0F1;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -99,9 +107,10 @@ h6 {
 .email-input {
 
     height: 45px;
-    width:180px;
+    width:240px;
     text-align: center;
-    margin: 0 auto;
+    padding-left: 0px;
+   
 }
 
 
@@ -135,6 +144,14 @@ h6 {
         width: 100px;
         margin: 0 auto;
 
+    }
+
+    .email-input {
+
+    height: 45px;
+    width:180px;
+    text-align: center;
+    margin: 0 auto;   
     }
 
 
