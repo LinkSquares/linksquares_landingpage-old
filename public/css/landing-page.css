@@ -83,6 +83,18 @@ h6 {
     color: #34495E;
 }
 
+.email-input {
+
+    height: 45px;
+    text-align: center;
+}
+
+.btn.btn-block{
+    background-color: #F39C12;
+
+
+}
+
 
 @media(max-width:767px) {
     .intro-message {
@@ -95,8 +107,9 @@ h6 {
     padding-left: 80px;
     text-align: center; 
 
+    }
 
-}
+
 
     .intro-text > h1 {
         padding-top: 10px;
