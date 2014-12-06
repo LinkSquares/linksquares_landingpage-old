@@ -14,13 +14,13 @@ html {
 body,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
 }
+
 
 
 .lead {
@@ -56,7 +56,7 @@ h6 {
         padding-top: 20px;
     padding-bottom: 10px;
     background-color: #34495E;
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
 
 }
@@ -133,7 +133,7 @@ li{
     display: block;@
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
-    font-size: 54px;
+    font-size: 60px;
     color: #34495E;
 }
 
@@ -149,7 +149,9 @@ li{
      padding-bottom: 20px;
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
-    font-size: 2em;
+    font-size: 24px;
+    line-height: 0.0;
+    font-weight: 700;
     color: #34495E;
 }
 
@@ -202,6 +204,7 @@ p.copyright {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
     
     }
 
@@ -249,6 +252,7 @@ p.copyright {
         padding-top: 20px;
          padding-bottom: 20px;
         font-size: 24px;
+        line-height: 0.9
     }
 
     ul.intro-social-buttons > li {
