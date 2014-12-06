@@ -146,6 +146,7 @@ li{
         text-align: center;
         padding-top: 5px;
         padding-bottom: 6px;
+        margin-top: 20px;
 
     }
 
@@ -187,6 +188,7 @@ li{
     .btn.btn-primary.btn-lg.btn-block{
         width: 100px;
         margin: 0 auto;
+        margin-top: 20px;
 
     }
 
