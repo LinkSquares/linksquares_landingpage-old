@@ -75,6 +75,18 @@ text-align: center;
 
 }
 
+label.error {
+    color: red;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-top: 0.5em;
+    width: 100%;
+    float: none;
+}
+
+
+
 form {
     display: inline; 
 }
@@ -181,7 +193,9 @@ li{
     .form-group.has-success{
     color: #ECF0F1;
     
-}
+    }
+
+     label.error { margin-left: 0; display: block; }
 
 
     .btn.btn-primary.btn-lg.btn-block{
