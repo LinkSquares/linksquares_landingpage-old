@@ -7,6 +7,10 @@ $(document).ready(function() {
 
       $.post("https://docs.google.com/a/linksquares.com/forms/d/19J9SD8mB8nqXDPIf6Ds1ECuuT09fFF5Tn7XdEd_UbEM/formResponse", data);
       
+      // Modify the DOM to show success (e.g. show hidden div with success message).
+
+      //$('.form-group.has-success').show();
+      //$('.form-group.has-error').hide();
 
       return false;
   }
@@ -17,33 +21,18 @@ $(document).ready(function() {
 
   //else
 
-  function validateFormMobile() {
-    $( "#target" ).validate({
-    submitHandler: function( form ) {
-        alert( "Call Login Action" );
-      }
-    });
-    
-  }
 
 
 
 
   $('#target').submit(function(event) {
-      validateFormMobile();
-
-
-
-
-
-
-    //event.preventDefault();
-    //$('.btn.btn-primary.btn-lg.btn-block').hide();   
-    //$('.form-control.email-field').hide(); 
-    //$('.success-text').show();
-    //$('.form-group').css("height", "118px");
-    //$('.preview-text').hide();
-   // postToGoogle();
+    event.preventDefault();
+    $('.btn.btn-primary.btn-lg.btn-block').hide();   
+    $('.form-control.email-field').hide(); 
+    $('.success-text').show();
+    $('.form-group').css("height", "118px");
+    $('.preview-text').hide();
+    postToGoogle();
 
   });
 });
