@@ -180,6 +180,11 @@ li{
 
 }
 
+p.copyright {
+    margin: 15px 0 0;
+    color: #F39C12;
+}
+
 
 @media(max-width:767px) {
     
@@ -337,7 +342,7 @@ li{
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #34495E;
 }
 
 p.copyright {
