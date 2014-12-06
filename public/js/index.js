@@ -16,14 +16,21 @@ $(document).ready(function() {
   }
 
   //When the form is submitted, validate the checkboxes are okay, then post to Google
-  $('#submit-button').click(function(event) {
+  
+ // if validateEmail($('.form-control.email-field').val())
+
+  //else
+
+
+
+  $('#target').submit(function(event) {
     event.preventDefault();
-  $('.btn.btn-primary.btn-lg.btn-block').hide();   
-  $('.form-control.email-field').hide(); 
-  $('.success-text').show();
-   $('.form-group').css("height", "118px");
-  $('.preview-text').hide();
-  postToGoogle();
+    $('.btn.btn-primary.btn-lg.btn-block').hide();   
+    $('.form-control.email-field').hide(); 
+    $('.success-text').show();
+    $('.form-group').css("height", "118px");
+    $('.preview-text').hide();
+    postToGoogle();
 
   });
 });
