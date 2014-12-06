@@ -67,6 +67,14 @@ h6 {
     padding-top: -100px;
 }
 
+/* Success text styling*/
+.success-text{
+color: #ECF0F1;
+font-size: 20px;
+text-align: center;
+
+}
+
 
 .form-control.email-field:focus{
 

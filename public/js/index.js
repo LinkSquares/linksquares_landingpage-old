@@ -20,7 +20,8 @@ $(document).ready(function() {
     event.preventDefault();
   $('.btn.btn-primary.btn-lg.btn-block').hide();   
   $('.form-control.email-field').hide(); 
-  $('.form-group.has-success').show();
+  $('.success-text').show();
+   $('.form-group').css("height", "118px");
   $('.preview-text').hide();
   postToGoogle();
 
