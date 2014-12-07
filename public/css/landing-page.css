@@ -180,6 +180,11 @@ li{
 
     }
 
+.btn.btn-primary.btn-lg.btn-block:hover{
+      background-color: #BDC3C7;
+
+    }
+
 #sections-features {
     padding-top: 50px;
     padding-bottom: 50px;
