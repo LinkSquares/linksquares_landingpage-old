@@ -199,7 +199,8 @@ li{
 }
 
 .lead.bottom {
-    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 20px; 
 }
 
 .footer-menu-divider{
@@ -312,8 +313,6 @@ a.footer{
     padding-bottom: 0px;
     background-color: #ECF0F1;
      margin: 0 auto;  
-
-
 }
 
 .content-section-b {
@@ -330,6 +329,10 @@ a.footer{
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+}
+
+.img-responsive.analytics{
+    margin-left:30px;
 }
 
 .banner {
