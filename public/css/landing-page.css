@@ -69,6 +69,7 @@ h6 {
 
 /* Success text styling*/
 .success-text{
+
 color: #ECF0F1;
 font-size: 20px;
 text-align: center;
@@ -162,7 +163,7 @@ li{
 
 .email-input {
 
-    height: 80px;
+    height: 100px;
     width:240px;
     text-align: center;
     padding-left: 0px;
@@ -170,14 +171,24 @@ li{
 }
 
 .btn.btn-primary.btn-lg.btn-block{
-        width: 100px;
+        width: 170px;
         margin: 0 auto;
         text-align: center;
         padding-top: 5px;
         padding-bottom: 6px;
+        font-weight: 700;
 
     }
 
+#sections-features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-section-a {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -187,8 +198,21 @@ li{
 
 }
 
+.lead.bottom {
+    width: 550px;
+}
+
+.footer-menu-divider{
+    color: #ECF0F1
+
+}
+
 p.copyright {
     margin: 15px 0 0;
+    color: #ECF0F1;
+}
+
+a.footer{
     color: #F39C12;
 }
 
@@ -204,7 +228,7 @@ p.copyright {
 
     .form-group{
         width: 230px;
-        height: 200px;
+        height: 180px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -222,9 +246,10 @@ p.copyright {
 
 
     .btn.btn-primary.btn-lg.btn-block{
-        width: 100px;
+        width: 165px;
         margin: 0 auto;
         margin-top: 20px;
+        text-align: center;
 
     }
 
@@ -283,7 +308,7 @@ p.copyright {
 }
 
 .content-section-a {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 0px;
     background-color: #ECF0F1;
      margin: 0 auto;  
@@ -333,6 +358,7 @@ p.copyright {
         float: left;
         margin-top: 15px;
     }
+
 }
 
 @media(max-width:767px) {
