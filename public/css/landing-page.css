@@ -223,7 +223,7 @@ a.footer{
 }
 
 
-@media(max-width:767px) {
+@media(max-width:768px) {
     
 
     .intro-message {
@@ -303,6 +303,10 @@ a.footer{
 
     .intro-divider {
         width: 100%;
+    }
+
+    a.footer{
+        font-size: 14px;
     }
 }
 
