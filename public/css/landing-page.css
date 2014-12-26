@@ -248,7 +248,7 @@ a.footer{
     
     }
 
-     label.error { margin-left: 0; display: block; }
+     label.error { m argin-left: 0; display: block; }
 
 
     .btn.btn-primary.btn-lg.btn-block{
@@ -308,6 +308,11 @@ a.footer{
     a.footer{
         font-size: 14px;
     }
+
+    .copyright.text-muted.small{
+        font-size: 12px;
+    }
+
 }
 
 .network-name {
@@ -365,6 +370,8 @@ a.footer{
     margin-top: 0;
 }
 
+
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
@@ -389,6 +396,7 @@ a.footer{
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+
 }
 
 footer {
