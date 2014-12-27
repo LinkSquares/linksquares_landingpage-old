@@ -19,7 +19,7 @@ $(document).ready(function() {
     $('.form-group').css("height", "100px");
 
     $('.preview-text').hide();
-    //postToGoogle();
+    postToGoogle();
 
   });
 });
