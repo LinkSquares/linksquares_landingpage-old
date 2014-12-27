@@ -15,11 +15,11 @@ $(document).ready(function() {
     $('.btn.btn-primary.btn-lg.btn-block').hide();   
     $('.form-control.email-field').hide(); 
     $('.success-text').show();
-    //$('.form-group').css("@media (max-width:767px) {'height', '170px'}")
-    //$('.form-group').css("height", "170px");
+    $('.form-group').css("@media (max-width:768px){ .form-group{ height: 135px;}}")
+    $('.form-group').css("height", "100px");
 
     $('.preview-text').hide();
-    postToGoogle();
+    //postToGoogle();
 
   });
 });
