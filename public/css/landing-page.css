@@ -43,6 +43,11 @@ h6 {
     background-size: cover;
 }
 
+    #laptop{
+
+        display: none;
+        }
+
 /* This controls the size of the image */
 .intro-message {
     position: relative;
@@ -225,6 +230,23 @@ a.footer{
 
 @media(max-width:768px) {
     
+    .intro-header {
+        padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        /*color: #f8f8f8;*/
+        background: url(../img/hero_image_mobile.jpg) no-repeat center center;
+        background-size: cover;
+        height: 800px;
+        
+    }   
+
+    #laptop{
+
+        display: inline;
+        }
+
 
     .intro-message {
         padding-top: 120%;
