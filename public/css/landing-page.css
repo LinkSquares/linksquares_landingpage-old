@@ -227,6 +227,12 @@ a.footer{
     color: #F39C12;
 }
 
+.footer > img:hover{
+     border: solid 2px #F39C12;
+
+
+}
+
 
 @media(max-width:768px) {
     
