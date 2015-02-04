@@ -24,6 +24,12 @@ module AppName
       erb :index
     end
 
+    get '/survey' do
+      js  'survey'
+      css 'survey'
+      erb :survey
+    end
+
     helpers do
       include Rack::Utils
 
