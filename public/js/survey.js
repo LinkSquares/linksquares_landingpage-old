@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   function postToGoogle() {
     var data = {
+        'entry.351153168': $('#fullname').val(),
         'entry.27691755': $('#survey-dashboard').val(),
         'entry.1028587106': $('#survey-square').val(),
         'entry.46583915': $('#square-collapsed').val(),
