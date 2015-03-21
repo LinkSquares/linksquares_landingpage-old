@@ -4,15 +4,30 @@ html {
     height: 100%;
 }
 
-.intro-header {
+.intro-survey {
     padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 60px;
     text-align: center;
     /*color: #f8f8f8;*/
-    background: url(../img/hero_image.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #ECF0F1;
 }
 
+h3 {
+    color: #34495E;
+      font-family: "Roboto",sans-serif;
+    font-weight: 700;
+}
+
+.ui-images > h3 {
+    color: #34495E;
+      font-family: "Roboto",sans-serif;
+    font-weight: 700;
+
+}
+
+.form-control.text-field{
+    width: 600px;
+}
 
 .form-control.fullname-field{
     width: 200px;
@@ -25,4 +40,9 @@ html {
     border:1px solid #F39C12;
     box-shadow: 0 0 10px #F39C12;
 
+}
+
+p{
+    font-size: 28px;
+    color: #27AE60;
 }
