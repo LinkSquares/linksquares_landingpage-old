@@ -36,6 +36,16 @@ h1{
     font-weight: 400;
 }
 
+.elevatorpitch {
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+     text-align: justify;
+}
+
 /*This controls the logo image padding and style*/
 .top-bar{
     padding-left: 30px;
@@ -247,6 +257,13 @@ a.footer{
 
 }
 
+.content-section-pitch {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #34495E;
+     margin: 0 auto;  
+}
+
 
 @media(max-width:768px) {
     
@@ -258,7 +275,7 @@ a.footer{
         /*color: #f8f8f8;*/
         background: url(../img/hero_image_mobile.jpg) no-repeat center center;
         background-size: cover;
-        height: 700px;
+        height: 950px;
         
     }   
 
@@ -367,6 +384,20 @@ a.footer{
         font-size: 10px;
     }
 
+.elevatorpitch {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+     text-align: justify;
+}
+
+
+
+
+
 }
 
 .network-name {
@@ -375,6 +406,14 @@ a.footer{
     font-weight: 400;
     letter-spacing: 2px;
 }
+
+.content-section-pitch {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #34495E;
+     margin: 0 auto;  
+}
+
 
 .content-section-a {
     padding-top: 40px;
@@ -387,6 +426,15 @@ a.footer{
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-c {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #34495E;
+     margin: 0 auto;
+     color: white;  
+     font-size: 20px;
 }
 
 .section-heading {
@@ -423,6 +471,9 @@ a.footer{
     float: right;
     margin-top: 0;
 }
+
+
+
 
 
 
