@@ -46,6 +46,27 @@ h1{
      text-align: justify;
 }
 
+p.header-paragraph-top{
+
+    font-weight: 600;
+       margin: 0 auto;
+    font-size: 24px;
+    font-weight: 500;
+        color: #34495E;
+
+}
+
+p.header-paragraph-bottom{
+
+    padding-top: 20px;
+    font-weight: 600;
+       margin: 0 auto;
+    font-size: 24px;
+    font-weight: 500;
+        color: #34495E;
+
+}
+
 .closingcta {
     padding-top: 20px;
     margin: 0 auto;
