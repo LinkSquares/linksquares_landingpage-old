@@ -64,6 +64,7 @@ p.header-paragraph-bottom{
     font-size: 24px;
     font-weight: 500;
         color: #34495E;
+        padding-bottom: 50px
 
 }
 
@@ -90,6 +91,7 @@ p.header-paragraph-bottom{
     /*color: #f8f8f8;*/
     background: url(../img/hero_image_updated.jpg) no-repeat center center;
     background-size: cover;
+    height: 1300px
 }
 
     #laptop{
